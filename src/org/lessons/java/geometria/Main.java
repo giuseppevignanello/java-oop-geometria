@@ -25,6 +25,9 @@ public class Main {
 			System.out.println("Rettangle " + (i+1) + " height: " + rettangles[i].height);
 			System.out.println("Rettangle " + (i+1) + " perimeter: " + rettangles[i].calcolaPerimetro());
 			System.out.println("Rettangle " + (i+1) + " area: " + rettangles[i].calcolaArea());
+			System.out.println();
+			rettangles[i].draw();
+			System.out.println();
 		} 
 	}
 }
